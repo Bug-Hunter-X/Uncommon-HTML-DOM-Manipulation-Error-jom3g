@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to DOM manipulation in HTML. The bug arises from calling a function that interacts with the DOM before the DOM is fully parsed.  The solution involves ensuring the DOM is ready before attempting manipulation.
